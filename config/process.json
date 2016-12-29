@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "steemit1",
+      "script": "babel-node ./webpack/dev-server.js",
+      "watch": false,
+      "exec_interpreter": "babel-node",
+      "exec_mode": "fork",
+      "log_file": "steemit1.log",
+      "log_date_format": "MM-DD HH:mm:ss",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 3000
+      }
+    }
+      
+    
+  ]
+}
