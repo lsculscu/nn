@@ -1,0 +1,134 @@
+.App {
+  // min-height: 100vh;
+  padding-top: 50px;
+  //background-image: url(../images/spiderweb.png);
+  background-repeat: no-repeat;
+  background-position-y: 80px;
+}
+
+.App__content {
+  //margin-top: 1.5rem;
+  margin-top: -171px;
+}
+
+.welcomeWrapper {
+  margin-top: -1.5rem;
+  padding-bottom: 1rem;
+}
+.welcomeBanner {
+  padding-bottom: 2.35rem;
+  background-color: #fafbfd;
+  //background-image: url(../images/lp-bottom.jpg);
+  background-repeat: repeat-x;
+  background-position:bottom;
+  //background-attachment:fixed;
+}
+
+body {
+  background-image: url(../images/bg-steem.png);
+}
+.button.hollow {
+    background-color: rgba(0, 0, 0, 0.57);
+}
+.button.hollow:hover {
+    background-color: rgba(0, 0, 0, 0.57);
+    color: #4f8ef7;
+}
+.RightMenu {
+  background-color: #555;
+  height: 100vh;
+  color: #fff;
+  padding-top: 3rem;
+  .close-button {
+    color: #fff;
+  }
+  .menu > li {
+    > a {
+      color: #fff;
+      border-top: 1px solid #777;
+    }
+    > a:hover {
+      background-color: #666;
+    }
+  }
+  .menu > li.last {
+    border-bottom: 1px solid #777;
+  }
+  .button.hollow {
+    color: #fff;
+    border: none;
+  }
+}
+.PlainLink {
+    color: #8a8a8a;
+}
+
+.welcomeBanner {
+  position: relative;
+  h2 {
+    font-size: 3.8rem;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  h4 {
+    color: #999;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .close-button {
+    top: 0.5rem;
+  }
+  .button.hollow {
+    background-color: rgba(255,255,255,0.5);
+  }
+}
+.downvoted {
+    color: #848282;
+    opacity: .3;
+    -webkit-filter: grayscale(1); // image
+    filter: gray; // image grayscale
+    .Comment__header-user {
+        color: #848282;
+    }
+}
+.downvoted:hover {
+    opacity: 1;
+    filter: none;
+    -webkit-filter: none;
+}
+
+.App__announcement {
+  padding-right: 40px;
+}
+.back {
+    background-color: rgba(0,0,0,0.57);
+    margin-top: 55px; 
+    h2 {
+      color: #4f8ef7;
+    }
+    p {
+      color: #7e888a;
+    }     
+}
+.half {
+    width: 50%;
+}
+.right1 {
+    float: right;
+}
+.left1{
+  margin: -1px;
+}
+
+.spider {
+    margin-top: -6px;
+    position: relative;
+   z-index: 10;
+}
+li#noitem {
+    color: #7e888a;
+    text-align: center;
+}
+.TagsIndex {
+    padding-top: 54px;
+}
